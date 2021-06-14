@@ -41,10 +41,59 @@ function calcularDelta(){
     document.getElementById('resultado').value = delta;
 }
 
-fuction calcularComprimento(){
-    var raio = Number(document.getElmentById('raio').value);
 
-    var C = 2 * Math.PI * raio;
+function calcularComprimento() {
 
-    document.getElementById('C').value;
+	var raio = Number(document.getElementById('raio').value); // entrada
+
+
+
+	// C = 2 * PI * raio
+
+	var C = 2 * Math.PI * raio; // processamento
+
+	C = C.toFixed(2);
+
+
+
+	document.getElementById('C').value = C; // saída
+
 }
+
+function calcularArea() {
+
+	var raio = Number(document.getElementById('raio').value); 
+
+
+
+	// A = PI * raio2
+
+	var A = Math.PI * Math.pow(raio, 2); 
+
+	A = A.toFixed(2);
+
+
+
+	document.getElementById('A').value = A; 
+
+}
+
+
+function calcularVolume() {
+
+	var raio = Number(document.getElementById('raio').value); 
+
+
+
+	// A = PI * raio2
+
+	var V = 3/4 * Math.PI * Math.pow(raio, 3); 
+
+	V = V.toFixed(2);
+
+
+
+	document.getElementById('V').value = V; 
+
+}
+
