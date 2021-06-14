@@ -97,3 +97,18 @@ function calcularVolume() {
 
 }
 
+
+
+function escolherCalculadora() {
+
+	if (document.getElementById('delta').checked == true)
+        //window.location.replace('calcdelta.html');
+        window.open('calcdelta.html');
+	else if (document.getElementById('esfera').checked == true)
+        //window.location.replace('calcesfera.html');
+        window.open('calcesfera.html');
+
+    else
+    window.alert('é necessário selecionar uma das opções!');
+
+}
