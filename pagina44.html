@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 43</title>
+	</head>
+
+	<body>
+		<h1>Calculadora de Somar</h1>
+        
+        <form oninput="
+         var num1 = Number(n1.value);
+         var num2 = Number(n2.value);
+
+         resultado.value = num1 + num2;
+
+        ">
+            <fieldset>
+                <legend>Dados para Cálculos</legend>
+
+                <p>
+                    
+                <label for="n1">Valor 1: </label>
+                <input type="text" id="n1" size="5">
+
+                <label for "n1">Valor 2: </label>
+                <input type="text" id="n2" size="5">
+
+                <hr>
+
+                <p>
+                <label for="resultado">Resultado: </label>
+                <output id="resultado" name="resultado"></output>
+
+                </p>
+
+
+                </p>
+            </fieldset>
+        </form>
+       
+    </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+	background-color: silver;
+	font-family: verdana;
+}
+
+p {
+	font-size: 11pt;
+	text-align: justify;
+	line-height: 20pt;
+}
+
+div#conteudo {
+	background-color: white;
+	
+	width: 90%;
+	padding: 2%;
+	border: black 1px solid;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px;
+}

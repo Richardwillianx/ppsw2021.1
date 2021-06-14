@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 41</title>
+	</head>
+
+	<body>
+		<h1>Função String()</h1>
+
+        <script>
+         
+            var d = new Date();
+
+
+            var dia = d.getDate();
+            var mes = d.getMonth() + 1;
+            var ano = d.getFullYear();
+
+            dia = String(dia);
+            mes = String(mes);
+            ano = String(ano);
+
+            var data = dia + '/' +  mes + '/' + ano;
+
+        </script>
+        
+		<p>
+           Hoje é <script>document.write(data);</script>.
+        </p>
+	</body>
+</html>

@@ -43,5 +43,8 @@ function calcularDelta(){
 
 fuction calcularComprimento(){
     var raio = Number(document.getElmentById('raio').value);
-    
+
+    var C = 2 * Math.PI * raio;
+
+    document.getElementById('C').value;
 }
